@@ -1,7 +1,11 @@
 package com.youtube.demo.model;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
+@Entity
+@Table(name = "users")
 public class User extends ParentEntity {
 
 	private static final long serialVersionUID = 8435405591663518471L;
